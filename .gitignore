@@ -1,0 +1,56 @@
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# General untracked file formats
+*.log
+**/pbf
+*.pbf
+
+# Untracked files
+config.yaml
+dag.svg
+
+# Untracked folders (and files within)
+.snakemake/
+benchmarks/
+cutouts/
+data/
+data/osm/
+data/raw/
+data/base_network/
+results/summaries/
+results/plots/
+networks/
+resources/
+scripts/temp
+scripts/test.py
+
+# Untrack some Jupyter changes
+.ipynb_checkpoints
+notebooks/*.nc
+notebooks/*.csv
+notebooks/*.zip
+notebooks/*.tif
+notebooks/old_notebooks/*.nc
+notebooks/old_notebooks/*.csv
+notebooks/old_notebooks/*.zip
+notebooks/old_notebooks/*.tif
+
+# Untrack test doc builds
+doc/_build
+
+# VS code related
+.vscode
+doc/.vscode/settings.json
+.vscode/settings.json
+resources/regions_onshore.geojson
+resources/regions_offshore.geojson
+resources/regions_onshore.geojson
+resources/regions_onshore.geojson
+resources/regions_offshore.geojson
+resources/regions_onshore.geojson
+resources/regions_offshore.geojson
